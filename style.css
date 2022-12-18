@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100%;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.4)88%, rgba(0,0,0,0.5)12%), url(Image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    font-family: Cambria;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.content{
+    background-color: #16f52955;
+    width: 32rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    border-radius: 2rem;
+    letter-spacing: .1rem;
+    word-spacing: .2rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: Cambria;
+}
+
+.head{
+    color: #fff;
+}
+
+.box{
+    border-radius: 2rem;
+    width: 16rem;
+    margin-top: 1rem;
+    padding: .6rem;
+    border: none;
+    margin-left: 4rem;
+    background-color: white;
+}
+
+
+.to{
+    margin-top: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.select{
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}       
+
+button{
+    border-width: 0;
+    width: 12rem;
+    height: 2.5rem;
+    background: #23a559;
+    border: none;
+    border-radius: 3rem;
+    margin-top: 1.2rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+button:hover{
+    color: #23a559;
+    background-color: #fff;
+    font-size: 1rem;
+    font-family: Cambria;
+    font-weight: bold;
+}
